@@ -1,5 +1,5 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/bkqta2igb817idnn?svg=true)](https://ci.appveyor.com/project/AlexWEBArt/ra-dropdown-list)
-https://github.com/AlexWEBArt/ra-dropdown-list.git
+https://alexwebart.github.io/ra-dropdown-list/
 
 Выпадающий список
 ===
