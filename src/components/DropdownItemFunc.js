@@ -6,6 +6,6 @@ export default function DropdownItem(props) {
     }
 
     return (
-        <li><a href="#" onMouseEnter={hendelEnterLeave} onMouseLeave={hendelEnterLeave}>{item}</a></li>
+        <li><a href="https://github.com/AlexWEBArt/ra-dropdown-list.git" onMouseEnter={hendelEnterLeave} onMouseLeave={hendelEnterLeave}>{item}</a></li>
     )
 }
