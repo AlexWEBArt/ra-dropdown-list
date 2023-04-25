@@ -14,11 +14,11 @@ install:
 build: off  # отключаем встроенную в appveyor систему сборки
 
 build_script:
-  - yarn run build   # команда сборки
+  - yarn run deploy   # команда сборки
 
 deploy_script:  # скрипт развёртывания
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
   - git config --global user.email ci@appveyor.com
   - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
-  - npx push-dir --dir=src --branch=gh-pages --force --verbose
+  - npx push-dir --dir=public --branch=gh-pages --force --verbose
