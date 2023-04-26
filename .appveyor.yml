@@ -14,7 +14,6 @@ install:
 build: off  # отключаем встроенную в appveyor систему сборки
 
 build_script:
-  - yarn run predeploy
   - yarn run deploy   # команда сборки
 
 deploy_script:  # скрипт развёртывания
