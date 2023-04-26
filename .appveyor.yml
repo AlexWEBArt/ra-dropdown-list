@@ -14,8 +14,7 @@ install:
 build: off  # отключаем встроенную в appveyor систему сборки
 
 build_script:
-  - git config --global user.name AlesWebArt
-  - git config --global user.email elusiv@mail.ru
+  - yarn run predeploy
   - yarn run deploy   # команда сборки
 
 deploy_script:  # скрипт развёртывания
